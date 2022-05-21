@@ -1,0 +1,367 @@
+[0.265s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-n']
+[0.265s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['.'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fbbd59c0b50>>, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('list',), names_only=True, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=False, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fbbd59c0b50>, verb_name='list', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fbbd594d070>)
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.323s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aman/stm32-makefile'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/linker/STM32F4xx) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/make/STM32F4xx) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'ros'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base/startup/STM32F4xx) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS) by extension 'python_setup_py'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'ros'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['cmake', 'python']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'cmake'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'python'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extensions ['python_setup_py']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/ARM/inc) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/inc) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/CMSIS/STM32F4xx/src) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL) by extension 'python_setup_py'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'ros'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['cmake', 'python']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'cmake'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'python'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/inc/Legacy) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'ros'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['cmake', 'python']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'cmake'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'python'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extensions ['python_setup_py']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src) by extension 'python_setup_py'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['colcon_pkg']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(STM32-base-STM32Cube/HAL/STM32F4xx/src/Legacy) by extension 'python_setup_py'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(bin) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'ros'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['cmake', 'python']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'cmake'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'python'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extensions ['python_setup_py']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(obj) by extension 'python_setup_py'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'ros'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['cmake', 'python']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'cmake'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'python'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extensions ['python_setup_py']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src_asm) by extension 'python_setup_py'
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
